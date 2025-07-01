@@ -1,0 +1,221 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/anbu/Projects/Workout/Elsa/ElsaServerAndStudio/ElsaServer/ElsaServer.csproj": {}
+  },
+  "projects": {
+    "/Users/anbu/Projects/Workout/Elsa/ElsaServerAndStudio/ElsaServer/ElsaServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/anbu/Projects/Workout/Elsa/ElsaServerAndStudio/ElsaServer/ElsaServer.csproj",
+        "projectName": "ElsaServer",
+        "projectPath": "/Users/anbu/Projects/Workout/Elsa/ElsaServerAndStudio/ElsaServer/ElsaServer.csproj",
+        "packagesPath": "/Users/anbu/.nuget/packages/",
+        "outputPath": "/Users/anbu/Projects/Workout/Elsa/ElsaServerAndStudio/ElsaServer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/anbu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/anbu/Projects/Workout/Elsa/ElsaServerAndStudio/ElsaStudio/ElsaStudio.csproj": {
+                "projectPath": "/Users/anbu/Projects/Workout/Elsa/ElsaServerAndStudio/ElsaStudio/ElsaStudio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Elsa": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Elsa.CSharp": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Elsa.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Elsa.EntityFrameworkCore.Common": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Elsa.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Elsa.Identity": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Elsa.JavaScript": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Elsa.Liquid": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Elsa.Mediator": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Elsa.Scheduling": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Elsa.Workflows.Api": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/anbu/Projects/Workout/Elsa/ElsaServerAndStudio/ElsaStudio/ElsaStudio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/anbu/Projects/Workout/Elsa/ElsaServerAndStudio/ElsaStudio/ElsaStudio.csproj",
+        "projectName": "ElsaStudio",
+        "projectPath": "/Users/anbu/Projects/Workout/Elsa/ElsaServerAndStudio/ElsaStudio/ElsaStudio.csproj",
+        "packagesPath": "/Users/anbu/.nuget/packages/",
+        "outputPath": "/Users/anbu/Projects/Workout/Elsa/ElsaServerAndStudio/ElsaStudio/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/anbu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Elsa.Api.Client": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Elsa.Studio": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Elsa.Studio.Core.BlazorWasm": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Elsa.Studio.Login.BlazorWasm": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NET.Sdk.WebAssembly.Pack": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[8.0.6, 8.0.6]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
